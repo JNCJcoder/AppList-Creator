@@ -25,9 +25,14 @@ if not exist %APPLIST_FOLDER% (
 )
 
 for /f "tokens=1" %%x in (AppListIndex.txt) do (
-    set "filename=!APPLIST_FOLDER!/!index!.!FILE_FORMAT!"
-    echo | set /p "id=%%x">!filename!
-    set /a index+=1
+    set "appIdTest=%%x"
+    set "appIdTest=!appIdTest:~0,1!"
+
+    if !appIdTest! EQU +!appIdTest! (
+        set "filename=!APPLIST_FOLDER!/!index!.!FILE_FORMAT!"
+        echo | set /p "id=%%x">!filename!
+        set /a index+=1
+    )
 )
 
 echo    Done!
