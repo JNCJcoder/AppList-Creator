@@ -30,8 +30,8 @@
 
 ## Todo
 
-- comment support
-- line-break support
+- ~comment support~
+- ~line-break support~
 
 </br>
 
