@@ -13,6 +13,8 @@
 </p>
 </br>
 
+AppList Creator for GL2020 created with BatchScript(CMD - Windows).
+
 ## Usage
 </br>
 
