@@ -1,2 +1,0 @@
-10 = teste_teste-teste.teste
-20 = testando
