@@ -18,7 +18,7 @@ AppList Creator for GL2020 created with BatchScript(CMD - Windows).
 ## Usage
 </br>
 
-1. Place the file "AppList-Creator.bat" inside the same folder as the GL2020
+1. Place the file "AppList-Manager.bat" inside the same folder as the GL2020
 
 2. Open "AppList-Manager.bat".
 
